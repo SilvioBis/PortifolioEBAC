@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-header,
+header{
+    background-color: #e4ac12;
+    height: 2.3rem;
+}
+
+
+.btn-group{
+    align-items: flex-end;       
+    font-size: 30px;
+    float: right;  
+
+}
+
 footer {
     background-color: #e4ac12;
+
 }
 
 footer {
@@ -12,6 +26,7 @@ footer {
 p {
     margin-bottom: 10px;
     font-size: 25px;
+
 }
 h6{
     font-size: 20px;
@@ -22,10 +37,8 @@ img {
     height: auto;
 }
 
-#logo {
-    width: 10%;
-    margin: 30px 0;
-    height: auto;
+.btn {
+    line-height: 1.0rem;   
 }
 
 .carousel,
@@ -61,6 +74,6 @@ img {
 
 .card {
     float: left;
-    margin: 50px;
+    margin: 30px;
     background-color: #b4b4b4;
 }
